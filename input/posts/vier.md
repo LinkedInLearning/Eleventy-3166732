@@ -1,7 +1,7 @@
 ---
 title: Blogpost 4
 summary: Eventuell nur mit Brille
-image: bild_04.png
+date: 2023-11-21
 ---
 
 Vier Augen sehen mehr als zwei.

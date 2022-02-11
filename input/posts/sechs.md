@@ -1,7 +1,7 @@
 ---
 title: Blogpost 6
 summary: Das schöne Schulsystem
-image: bild_06.png
+date: 2025-08-01
 ---
 
 Setzen, sechs!
