@@ -1,7 +1,7 @@
 ---
 title: Blogpost 2
 summary: In diesem Blogpost 2 geht es über das Maßnehmen.
-date: 2021-08-22
+image: bild_02.png
 ---
 
 Mit zweierlei Maß messen.

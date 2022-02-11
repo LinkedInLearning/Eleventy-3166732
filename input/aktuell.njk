@@ -3,7 +3,11 @@ layout: base.njk
 title: Aktuell
 eleventyNavigation:
   key: Aktuell
-  
+pagination:
+  data: collections.posts
+  size: 3
+  alias: posts
+  reverse: true  
 ---
 
 <div class="p-4 p-md-5 mb-5 text-white rounded bg-black mt-5">
@@ -13,3 +17,40 @@ eleventyNavigation:
     </div>
 </div>
 
+
+{% for post in posts %}
+
+    <p class="my-4">
+        <a href="{{post.url}}">
+            {{ post.data.title }}</a> 
+- {{ post.data.date | postDate}}<br/>
+        {{post.data.summary}}
+    </p>
+
+{% endfor %}
+
+<p>
+    {% if pagination.href.previous %}
+        <a href=" {{ pagination.href.previous }}">neuere Beiträge</a>
+    {% else %}
+neuere Beiträge
+{% endif %} 
+ /
+{% if pagination.href.next %}
+        <a href=" {{ pagination.href.next }}">ältere Beiträge</a>
+    {% else %}
+ältere Beiträge
+{% endif %}
+</p>
+
+<nav >
+
+    <ul class="nav nav-pills">
+        {%- for pageEntry in pagination.pages %}
+            <li class="nav-item">
+                <a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page" class="nav-link active" {% endif %} class="nav-link">
+                    {{ loop.index }}</a>
+            </li>
+        {%- endfor %}
+    </ul>
+</nav>
