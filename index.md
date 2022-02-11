@@ -2,6 +2,8 @@
 meintitel: Startseite
 templateEngineOverride: njk, md
 layout: base.njk
+eleventyNavigation:
+  key: Start
 ---
 
 # {{meintitel}}

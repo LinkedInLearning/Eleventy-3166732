@@ -2,6 +2,8 @@
 meintitel: Service
 templateEngineOverride: njk, md
 layout: base.njk
+eleventyNavigation:
+  key: Service
 ---
 
 # {{meintitel}}

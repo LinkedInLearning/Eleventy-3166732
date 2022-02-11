@@ -1,5 +1,12 @@
 <header>
-Ein Kopfbereich
-
+{% set navPages = collections.all | eleventyNavigation %}
+<nav>
+<ul>
+{%- for entry in navPages %}
+  <li{% if entry.url == page.url %} class="aktuell"{% endif %}>
+    <a href="{{ entry.url | url }}" class="nav-item">{{ entry.title }}</a>
+  </li>
+{%- endfor %}
 </ul>
+</nav>
 </header>
