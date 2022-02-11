@@ -33,9 +33,10 @@ Dieses Problem lösen Sie wie folgt:
    - Node.JS
 2. Klonen Sie das Repository in Ihre lokale Maschine unter Verwendung von terminal (Mac), CMD (Windows) oder ein anderes Werkzeug mit grafischer Bedienoberfläche wie SourceTree.
 3. Wechseln Sie dann in das Verzeichnis.
-4. Geben Sie ein npm install
+4. Geben Sie ein `npm install`.
 5. Wenn alles installiert ist, können Sie mit `npx @11ty/eleventy --serve` Eleventy mit dem integrierten Server starten.
 6. Den Server stoppen Sie über Ctrl + C.
+7. Sie können sich natürlich auch nur ausgewählte Dateien/Ordner holen. 
 
 ### Autor
 
