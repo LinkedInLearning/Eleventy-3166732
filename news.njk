@@ -1,0 +1,30 @@
+---
+layout: base.njk
+pagination:
+  data: collections.news
+  size: 3
+  alias: news
+---
+<ul>
+{%- for new in news %}
+  <li>{{ new.data.title }}: {{ new.data.summary }}</li>
+{% endfor -%}
+</ul>
+
+
+
+<p>
+{% if pagination.href.previous %}
+<a href=" {{ pagination.href.previous }}">Zurück</a>
+{% else %}
+Zurück
+{% endif %} 
+/ 
+{% if pagination.href.next %}
+<a href=" {{ pagination.href.next }}">Weiter</a>
+{% else %}
+Weiter
+{% endif %}
+</p>
+
+
