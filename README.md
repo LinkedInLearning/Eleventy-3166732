@@ -29,8 +29,8 @@ Dieses Problem lösen Sie wie folgt:
 
 ## Installation
 
-1. Um diese Übungsdateien nutzen zu können, müssen Sie folgendes installiert haben:
-   - Node.JS
+1. Um diese Übungsdateien nutzen zu können, müssen Sie Folgendes installiert haben:
+   - [Node.JS](https://nodejs.org/en/)
 2. Klonen Sie das Repository in Ihre lokale Maschine unter Verwendung von terminal (Mac), CMD (Windows) oder ein anderes Werkzeug mit grafischer Bedienoberfläche wie SourceTree.
 3. Wechseln Sie dann in das Verzeichnis.
 4. Geben Sie ein `npm install`.
