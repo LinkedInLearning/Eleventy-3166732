@@ -1,6 +1,7 @@
 ---
 title: Blogpost 3
 summary: In diesem Blogpost 3 geht es das Kreuzemachen.
+image: bild_03.png
 date: 2022-09-21
 ---
 

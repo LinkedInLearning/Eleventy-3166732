@@ -1,6 +1,7 @@
 ---
 title: Blogpost 2
 summary: In diesem Blogpost 2 geht es über das Maßnehmen.
+image: bild_02.png
 date: 2021-08-22
 ---
 

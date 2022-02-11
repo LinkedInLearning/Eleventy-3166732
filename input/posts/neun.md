@@ -1,6 +1,7 @@
 ---
 title: Blogpost 9
 summary: Großes Erstaunen
+image: bild_09.png
 date: 2029-08-21
 ---
 

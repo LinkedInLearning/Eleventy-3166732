@@ -1,6 +1,7 @@
 ---
 title: Blogpost 5
 summary: In diesem Blogpost 5 geht es über das Geradeseinlassen.
+image: bild_05.png
 date: 2024-03-05
 ---
 

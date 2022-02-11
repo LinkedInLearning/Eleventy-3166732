@@ -1,6 +1,7 @@
 ---
 title: Blogpost 1
 summary: In diesem Blogpost geht es über Gesprächsthemen.
+image: bild_01.png
 date: 2020-08-21
 ---
 

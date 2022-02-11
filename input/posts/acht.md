@@ -1,6 +1,7 @@
 ---
 title: Blogpost 8
 summary: Aufpassen ist besser
+image: bild_08.png
 date: 2027-08-21
 ---
 

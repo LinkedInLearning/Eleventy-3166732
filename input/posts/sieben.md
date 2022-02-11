@@ -1,6 +1,7 @@
 ---
 title: Blogpost 7
 summary: 11ty ist das hoffentlich nicht mehr
+image: bild_07.png
 date: 2026-11-21
 ---
 
